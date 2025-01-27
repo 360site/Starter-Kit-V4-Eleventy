@@ -131,7 +131,7 @@
     text-decoration: none;
     font-weight: 700;
     margin: 0 0.5rem 1rem 0.5rem;
-    color: var(--headerColor);
+    color: var(--bodyTextColorWhite);
     padding: 0;
     background-color: var(--primary);
     display: inline-block;
@@ -178,12 +178,13 @@
     align-items: center;
     position: relative;
     z-index: 1;
+    border-radius: 5px;
   }
   #hero .cs-button-transparent:before {
     content: '';
     position: absolute;
     display: block;
-    background: #000;
+    background: #FFF;
     opacity: 1;
     /* so it sits on top of the border */
     top: -1px;

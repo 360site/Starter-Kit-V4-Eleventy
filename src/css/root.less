@@ -7,10 +7,10 @@
 
     // Website colors
     :root {
-        --primary: #FFBA19;
-        --primaryShade: #ffd675;
+        --primary: #0383f9;
+        --primaryShade: #0382f9da;
         --primaryDark: #805d0d;
-        --bodyTextColor: #4E4B66;
+        --bodyTextColor: #1a1a1a;
         --bodyTextColorWhite: #FAFBFC;
         --headerColor: #1a1a1a;
 
@@ -90,7 +90,7 @@
     }
 
     p, li {
-        color: #575757;
+        color: #222;
     }
 
     a, button {
@@ -114,9 +114,10 @@
         position: relative;
         z-index: 1;
         background-color: var(--primary);
+        border-radius: 5px;
 
         // Transition Properties
-        color: #000;
+        color: #FFF;
         transition: color .3s;
         transition-delay: .1s;
 
@@ -124,6 +125,7 @@
             color: #fff;
             &:before {
                 width: 100%;
+                border-radius: 5px;
             }
         }
 

@@ -102,6 +102,7 @@
   }
   #cs-contact #cs-form .cs-button-solid {
     width: 100%;
+    border-radius: 5px;
   }
   #cs-contact .cs-button-solid {
     font-size: 1rem;
@@ -121,6 +122,7 @@
     z-index: 1;
     /* prevents padding from adding to the width */
     box-sizing: border-box;
+    border-radius: 5px;
   }
   #cs-contact .cs-button-solid:before {
     content: '';
@@ -134,13 +136,16 @@
     z-index: -1;
     border-radius: 0.25rem;
     transition: width .3s;
+    border-radius: 5px;
   }
   #cs-contact .cs-button-solid:hover {
     color: var(--bodyTextColorWhite);
     cursor: pointer;
+    border-radius: 5px;
   }
   #cs-contact .cs-button-solid:hover:before {
     width: 100%;
+    border-radius: 5px;
   }
   #cs-contact .cs-right-section {
     position: relative;
